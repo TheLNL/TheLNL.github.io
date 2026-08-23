@@ -1,0 +1,20 @@
+:root {
+    --bg-color: #f5f0eb;
+    --text-color: #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #f0f0f0;
+    }
+}
+
+.centered-heading {
+    text-align: center;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
