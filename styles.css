@@ -17,4 +17,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    max-width: 65ch;       /* Limits width to ~65 characters */
+    margin-inline: auto;   /* Centers the body horizontally */
+    padding-inline: 1rem;
 }
